@@ -15,3 +15,22 @@ input {
     padding: 6px;
     margin-left: 5px;
 }
+
+.btn {
+    border-radius: 8px;
+    padding: 6px 10px 6px 10px;
+    margin-left: 2px;
+}
+
+.resultado {
+    width: 100%;
+    justify-content: center;
+}
+
+.card-pokemon {
+    width: 20%;
+}
+
+.listado-pokemon {
+    width: 100%;
+}

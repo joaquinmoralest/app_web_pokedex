@@ -15,17 +15,20 @@
         <header>
             <h1>Pokedex</h1>
             <h2>¿Quien es ese Pokémon?</h2>
-            <form action="#">
+            <form id="formulario" action="#">
                 <label for="buscador">Busca un Pokémon:</label>
                 <input id="buscador" type="text" name="pokemon" placeholder="Ej: Pikachu">
+                <button class="btn" type="submit">Enviar</button>
             </form>
         </header>
 
         <main>
-            <div id="resultado" class="card-pokemon"></div>
+            <div id="resultado"></div>
             <section id="listadoPokemon" class="listado-pokemon"></section>
         </main>
     </div>
+
+    <script src="main.js"></script>
 
 </body>
 </html>
